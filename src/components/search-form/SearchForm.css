@@ -1,0 +1,15 @@
+
+
+.dropdown{
+	margin-right: .5rem;
+
+	
+}
+.dropdown-menu{
+	margin-top: .2em;
+}
+.search-form{
+	width: 80%;
+	display: flex;
+	justify-content: flex-end;
+}

@@ -1,0 +1,23 @@
+.content-items-image{
+	width: 10%;
+	min-width: 250px;
+}
+.content-items-wrapper{
+	margin-top:3%;
+
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+	grid-column-gap: 10rem;
+   	grid-row-gap: 5rem;
+	grid-auto-columns: 1fr;
+	
+	
+}
+.content-border-wrapper{
+	border-radius: .7em;
+	padding: 4rem;
+	background: linear-gradient(30deg,#fff, #fff, #c0c0c0);
+	-webkit-box-shadow: inset -27px 28px 43px -16px rgba(255,255,255,1);
+-moz-box-shadow: inset -27px 28px 43px -16px rgba(255,255,255,1);
+box-shadow: inset -27px 28px 43px -16px rgba(255,255,255,1);
+}
